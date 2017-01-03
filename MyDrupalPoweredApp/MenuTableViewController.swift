@@ -31,7 +31,7 @@ public struct FrontpageViewContent: Mappable {
     var body:  String?
     var contentType: String?
     var date: String?
-    //var image: UIImage
+    var image: UIImage?
 
     public init?(map: Map) {
 
@@ -42,6 +42,7 @@ public struct FrontpageViewContent: Mappable {
         body  <- map["body"]
         contentType <- map["type"]
         date <- map["created"]
+        image <- map["field_image"]
     }
 }
 final class ExampleCell: UITableViewCell {

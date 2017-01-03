@@ -10,12 +10,14 @@ import UIKit
 
 
 open class NodeViewController: UIViewController {
+    
+    @IBOutlet weak var image: UIImageView!
 
     @IBOutlet weak var labelTitle: UILabel!
 
     @IBOutlet weak var labelDate: UILabel!
 
-    @IBOutlet weak var textViewBody: UITextView!
+    @IBOutlet weak var labelBody: UILabel!
 
 
     open var object : FrontpageViewContent!
@@ -26,7 +28,8 @@ open class NodeViewController: UIViewController {
         // Do any additional setup after loading the view.
         self.labelTitle.text = object.title
         self.labelDate.text = object.date
-        self.textViewBody.text = object.body
+        self.labelBody.text = object.body
+        self.image.image = object.image
     }
 
     override open func didReceiveMemoryWarning() {
