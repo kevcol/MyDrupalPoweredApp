@@ -31,7 +31,7 @@ public struct FrontpageViewContent: Mappable {
     var body:  String?
     var contentType: String?
     var date: String?
-    var image: UIImage?
+    var image: String?
 
     public init?(map: Map) {
 

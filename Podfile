@@ -7,4 +7,5 @@ target 'MyDrupalPoweredApp' do
 
   # Pods for MyPodcastApp
 	pod 'waterwheel', '~> 4.2'
+    pod 'AlamofireImage', '~> 3.1'
 end

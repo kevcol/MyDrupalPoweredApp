@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '476C59E49BF11F0ED85633EC3EBDD7F0'
+               BlueprintIdentifier = '0F2FAF026EACAB1A52BEFA1A782C0F73'
                BlueprintName = 'waterwheel'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'waterwheel.framework'>

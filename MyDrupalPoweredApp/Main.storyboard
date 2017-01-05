@@ -22,7 +22,7 @@
                                 <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="NfJ-lM-bcT" id="NHG-mw-svC">
-                                    <rect key="frame" x="0.0" y="0.0" width="342" height="44"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="342" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
@@ -118,7 +118,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="L5L-Yx-SfU"/>
                     <connections>
-                        <outlet property="image" destination="2AZ-JO-g3r" id="nes-pz-ah8"/>
+                        <outlet property="imageView" destination="2AZ-JO-g3r" id="InS-U2-Bcb"/>
                         <outlet property="labelBody" destination="8QA-gp-oR3" id="Di9-Uq-b8R"/>
                         <outlet property="labelDate" destination="rGW-2C-oHY" id="eZZ-bK-xNK"/>
                         <outlet property="labelTitle" destination="I4q-ac-bx3" id="xjX-Uc-hzE"/>
